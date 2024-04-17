@@ -1,1 +1,3 @@
-<section></section>
+<?php
+include('include/header.php')
+?>

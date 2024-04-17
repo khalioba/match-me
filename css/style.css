@@ -1,3 +1,94 @@
+:root {
+    --bg_color: #030303;
+    --menu_color: #131313;
+    --outline: #5580B0;
+    --texte: #ffffff;
+    --border: 2px solid var(--outline);
+}
+
 *{
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: var(--texte);
+}
+
+body {
+    background-color: var(--bg_color);
+}
+
+.rect_logo{
+    width: 100%;
+    height: 60px;
+    background-color:var(--menu_color) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+
+.logo_container a{
+    display: flex;
+}
+
+.logo_container p{
+    display: flex;
+    color: var(--texte);
+    font-size: 16pt;
+    margin-left: 10px;
+}
+
+.logo_container img{
+    width: 40px;
+    display: flex;
+}
+
+
+
+form.rect_search input[type=text] {
+    font-size: 17px;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    width: 300px;
+    background: var(--texte);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+form.rect_search input[type=text]::placeholder{
+    font-size: 10pt;
+    padding-left: 2px;
+}
+  
+  form.rect_search button {
+    float: left;
+    width: 40px ;
+    background: var(--outline);
+    color: var(--texte);
+    font-size: 17px;
+    border: 1px solid #5580B0;
+    border-left: none;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  form.rect_search button:hover {
+    background: #0b7dda;
+    border: 1px solid #0b7dda;
+  }
+  
+  form.rect_search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
