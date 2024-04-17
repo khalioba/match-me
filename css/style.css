@@ -4,6 +4,7 @@
     --outline: #5580B0;
     --texte: #ffffff;
     --border: 2px solid var(--outline);
+    --font_size_menu: 15pt; 
 }
 
 *{
@@ -29,6 +30,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
+    border-bottom: 1px solid var(--texte);
 }
 
 .logo_container{
@@ -38,12 +40,11 @@ body {
 
 .logo_container a{
     display: flex;
+    align-items: center;
+    font-size: 16pt;
 }
 
-.logo_container p{
-    display: flex;
-    color: var(--texte);
-    font-size: 16pt;
+.logo_container p{     
     margin-left: 10px;
 }
 
@@ -92,3 +93,41 @@ form.rect_search input[type=text]::placeholder{
     clear: both;
     display: table;
   }
+
+
+.menu_body_sug{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.menu_gauche{
+    width: 20%;
+    height: 100%;
+    background-color: var(--menu_color);
+}
+
+.menu_elements{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 33px 50px;
+}
+
+.Accueil{
+    padding-top: 50px;
+}
+
+.menu_elements a{
+    display: flex;
+    align-items: center;
+}
+
+.menu_elements img{
+    width: 30px;
+    margin-right: 10px;
+    filter: invert(1);
+}
+
+.menu_elements p{
+    font-size: var(--font_size_menu);
+}
