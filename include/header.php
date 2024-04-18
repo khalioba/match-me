@@ -37,37 +37,37 @@
         </a>
     </div>
     <div class="menu_elements Messages">
-        <a href="index.php"><img src="Images/house.svg" alt="">
+        <a href="chats.php"><img src="Images/chat.svg" alt="">
         <p>Messages</p>
         </a>
     </div>
-    <div class="menu_elements Messages">
-        <a href="index.php"><img src="Images/house.svg" alt="">
+    <div class="menu_elements Notifications">
+        <a href="notifications.php"><img src="Images/notification.svg" alt="">
         <p>Notifications</p>
         </a>
     </div>
-    <div class="menu_elements Messages">
-        <a href="index.php"><img src="Images/house.svg" alt="">
+    <div class="menu_elements Decouvrir">
+        <a href="index.php"><img src="Images/decouvrir.svg" alt="">
         <p>Découvrir</p>
         </a>
     </div>
-    <div class="menu_elements Messages">
-        <a href="index.php"><img src="Images/house.svg" alt="">
+    <div class="menu_elements Poster">
+        <a href="index.php"><img src="Images/poster.svg" alt="">
         <p>Poster</p>
         </a>
     </div>
-    <div class="menu_elements Messages">
-        <a href="index.php"><img src="Images/house.svg" alt="">
+    <div class="menu_elements Favoris">
+        <a href="index.php"><img src="Images/favoris.svg" alt="">
         <p>Favoris</p>
         </a>
     </div>
-    <div class="menu_elements Messages">
-        <a href="index.php"><img src="Images/house.svg" alt="">
+    <div class="menu_elements Profil">
+        <a href="index.php"><img src="Images/lune.png" alt="">
         <p>Profil</p>
         </a>
     </div>
-    <div class="menu_elements Messages">
-        <a href="index.php"><img src="Images/house.svg" alt="">
+    <div class="menu_elements Settings">
+        <a href="index.php"><img src="Images/settings_1.svg" alt="">
         <p>Paramètres</p>
         </a>
     </div>
