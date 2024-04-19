@@ -170,4 +170,55 @@ form.rect_search input[type=text]::placeholder{
     width: 20%;
     background-color: var(--menu_color);
     border-left: 1px solid var(--texte);
+    padding-left: 15px;
+    padding-top: 35px;
 }
+
+.Suggestions h1{
+    color: var(--texte);
+}
+
+.menu_droit_elements{
+    background-color: var(--menu_color);
+}
+    
+.menu_droit_suggestion{
+    border-bottom: 3px solid grey;
+    padding-top: 10px;
+}
+
+.profil_suggestion{
+    padding-top: 12px;
+    padding-bottom: 22px;
+    position: relative;
+}
+
+.profil_suggestion img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--outline);
+    object-fit: cover; 
+    object-position: center;
+}
+
+.online{
+    position: absolute;
+    background-color: var(--outline);
+    width: 13px;
+    height: 13px;
+    border-radius: 100px;
+    bottom: 24px;
+    right: 228px;
+}
+
+.profil_suggestion a{
+    display: flex;
+    align-items: center;
+}
+
+.profil_suggestion p{
+    padding-left: 10px;
+}
+
+
