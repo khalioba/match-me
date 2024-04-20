@@ -19,7 +19,7 @@ include('include/header.php')
                         <img src="Images/lune.png">
                         <span class="online"></span>
                     </div>
-                    <p>KHALIL OBA Adef</p>
+                    <p>KHALIL OBA Adef aka celui qu'on ne voit jamais</p>
                 </a>
             </div>
             <div class="profil_suggestion">

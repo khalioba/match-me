@@ -35,6 +35,8 @@ body {
   justify-content: space-between;
   padding: 0 50px;
   border-bottom: 1px solid var(--texte);
+  position: fixed;
+  z-index: 10;
 }
 
 .logo_container {
@@ -112,6 +114,11 @@ form.rect_search::after {
   flex-direction: column;
   justify-content: space-between;
   border-right: 1px solid var(--texte);
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  padding-top: 31px;
 }
 
 .menu_elements {
@@ -169,9 +176,14 @@ form.rect_search::after {
 
 .menu_droite {
   width: 25%;
+  height: 100%;
   background-color: var(--menu_color);
   border-left: 1px solid var(--texte);
   padding-left: 15px;
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  padding-top: 40px;
 }
 
 .menu_droit_elements {
