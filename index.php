@@ -14,21 +14,30 @@ include('include/header.php')
                 <h1>Suggestions</h1>
             </div>
             <div class="profil_suggestion">
-                <a href="index.php"><img src="Images/lune.png">
-                <span class="online"></span>
-                <p>KHALIL OBA Adef</p>
+                <a href="index.php">
+                    <div class="cercle_online">
+                        <img src="Images/lune.png">
+                        <span class="online"></span>
+                    </div>
+                    <p>KHALIL OBA Adef</p>
                 </a>
             </div>
             <div class="profil_suggestion">
-                <a href="index.php"><img src="Images/lune.png">
-                <span class="online"></span>
-                <p>KHALIL OBA Adef</p>
+                <a href="index.php">
+                    <div class="cercle_online">
+                        <img src="Images/lune.png">
+                        <span class="online"></span>
+                    </div>
+                    <p>KHALIL OBA Adef</p>
                 </a>
             </div>
             <div class="profil_suggestion">
-                <a href="index.php"><img src="Images/lune.png">
-                <span class="online"></span>
-                <p>KHALIL OBA Adef</p>
+                <a href="index.php">
+                    <div class="cercle_online">
+                        <img src="Images/lune.png">
+                        <span class="online"></span>
+                    </div>
+                    <p>KHALIL OBA Adef</p>
                 </a>
             </div>
         </div>
@@ -39,21 +48,30 @@ include('include/header.php')
                 <h1>Contacts</h1>
             </div>
             <div class="profil_suggestion">
-                <a href="index.php"><img src="Images/lune.png">
-                <span class="online"></span>
-                <p>KHALIL OBA Adef</p>
+                <a href="index.php">
+                    <div class="cercle_online">
+                        <img src="Images/lune.png">
+                        <span class="online"></span>
+                    </div>
+                    <p>KHALIL OBA Adef</p>
                 </a>
             </div>
             <div class="profil_suggestion">
-                <a href="index.php"><img src="Images/lune.png">
-                <span class="online"></span>
-                <p>Francis-ny Itoua</p>
+                <a href="index.php">
+                    <div class="cercle_online">
+                        <img src="Images/lune.png">
+                        <span class="online"></span>
+                    </div>
+                    <p>KHALIL OBA Adef</p>
                 </a>
             </div>
             <div class="profil_suggestion">
-                <a href="index.php"><img src="Images/lune.png">
-                <span class="online"></span>
-                <p>Sam-Kessy Christopher</p>
+                <a href="index.php">
+                    <div class="cercle_online">
+                        <img src="Images/lune.png">
+                        <span class="online"></span>
+                    </div>
+                    <p>KHALIL OBA Adef</p>
                 </a>
             </div>
         </div>
