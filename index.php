@@ -3,6 +3,20 @@ include('include/header.php')
 ?>
 
 <div class="menu_milieu">
+    <div class="menu_milieu_elements">
+    <div class="rect_milieu">
+        <div class="rect_milieu_photo">
+
+        </div>
+        <div class="rect_milieu_info">
+            On va écrire ici certaines choses
+
+        </div>
+
+    </div>
+
+    </div>
+    
 
 </div>
 
@@ -75,18 +89,8 @@ include('include/header.php')
                 </a>
             </div>
         </div>
-        
     </div>
 </div>
-
-
-
-
-
-
-
-
-
 
 
 

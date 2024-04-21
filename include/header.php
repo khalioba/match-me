@@ -31,6 +31,7 @@
 
 <section class="menu_body_sug">
 <div class="menu_gauche">
+    <div class="menu_gauche_elements">
     <div class="menu_elements Accueil">
         <a href="index.php"><img src="Images/house.svg" alt="">
         <p>Accueil</p>
@@ -71,5 +72,8 @@
         <p>Paramètres</p>
         </a>
     </div>
+
+    </div>
+    
 
 </div>
