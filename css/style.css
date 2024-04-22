@@ -113,10 +113,10 @@ form.rect_search::after {
   z-index: 2;
   top: 0;
   left: 0;
-  
+
 }
 
-.menu_gauche_elements{
+.menu_gauche_elements {
   padding-left: 40px;
   padding-bottom: 100%;
   display: flex;
@@ -245,20 +245,32 @@ form.rect_search::after {
 .menu_milieu {
   width: 55%;
   height: 100%;
+  
+ /* width: 55%;
+  height: 100%;
   z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  */
 }
 
-.menu_milieu_elements{
-
+.menu_milieu_elements {
+  margin-top: 60px;
+  margin: auto;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .rect_milieu_photo {
   background-image: url(../Images/profil.png);
   border-radius: 5px;
-  width: 50%;
+  width: 45%;
   height: 150px;
 }
 
-.rect_milieu_info{
+.rect_milieu_info {
   background-color: var(--menu_color);
+  width: 45%;
+  color: White;
 }
