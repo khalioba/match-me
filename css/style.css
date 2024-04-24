@@ -216,13 +216,13 @@ form.rect_search::after {
   object-position: center;
 }
 
-.cercle_online {
+.cercle_actif {
   display: flex;
   position: relative;
   align-items: center;
 }
 
-.online {
+.actif {
   position: absolute;
   top: 70%;
   left: 88%;
@@ -271,4 +271,42 @@ form.rect_search::after {
   border-radius: 5px;
   height: 500px;
   width: 50%;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.name {
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+.age {
+  font-size: 18pt;
+  font-weight: 500;
+}
+
+.city {
+  display: flex;
+  align-content: center;
+}
+
+.city img {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.online{
+  display: inline-block;
+  width: auto;
+  background-color: var(--outline);
+  border-radius: 50px;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 10px 0 10px 0px;
+}
+
+.border_separate {
+  border-bottom: 3px solid var(--outline);
+  opacity: 25%;
+  margin: 5px 20px 0px 0px;
 }

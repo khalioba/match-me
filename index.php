@@ -9,7 +9,16 @@ include('include/header.php')
 
             </div>
             <div class="rect_milieu_info">
-                On va écrire ici certaines choses
+                <div class="name_age_city_online">
+                    <p class="name"> Francis-ny Itoua</p>
+                    <p class="age"> 25 ans</p>
+                    <p class="city">
+                        <img src="Images/placeholder.svg" alt=""> Brazzaville
+                    </p>
+                    <p class="online"> En Ligne</p>
+                    <div class="border_separate"></div>
+                </div>
+
             </div>
 
         </div>
@@ -28,27 +37,27 @@ include('include/header.php')
             </div>
             <div class="profil_suggestion">
                 <a href="index.php">
-                    <div class="cercle_online">
+                    <div class="cercle_actif">
                         <img src="Images/lune.png">
-                        <span class="online"></span>
+                        <span class="actif"></span>
                     </div>
                     <p>KHALIL OBA Adef aka celui qu'on ne voit jamais</p>
                 </a>
             </div>
             <div class="profil_suggestion">
                 <a href="index.php">
-                    <div class="cercle_online">
+                    <div class="cercle_actif">
                         <img src="Images/lune.png">
-                        <span class="online"></span>
+                        <span class="actif"></span>
                     </div>
                     <p>KHALIL OBA Adef</p>
                 </a>
             </div>
             <div class="profil_suggestion">
                 <a href="index.php">
-                    <div class="cercle_online">
+                    <div class="cercle_actif">
                         <img src="Images/lune.png">
-                        <span class="online"></span>
+                        <span class="actif"></span>
                     </div>
                     <p>KHALIL OBA Adef</p>
                 </a>
@@ -62,7 +71,7 @@ include('include/header.php')
             </div>
             <div class="profil_suggestion">
                 <a href="index.php">
-                    <div class="cercle_online">
+                    <div class="cercle_actif">
                         <img src="Images/lune.png">
                         <span class="online"></span>
                     </div>
@@ -71,7 +80,7 @@ include('include/header.php')
             </div>
             <div class="profil_suggestion">
                 <a href="index.php">
-                    <div class="cercle_online">
+                    <div class="cercle_actif">
                         <img src="Images/lune.png">
                         <span class="online"></span>
                     </div>
@@ -80,7 +89,7 @@ include('include/header.php')
             </div>
             <div class="profil_suggestion">
                 <a href="index.php">
-                    <div class="cercle_online">
+                    <div class="cercle_actif">
                         <img src="Images/lune.png">
                         <span class="online"></span>
                     </div>
