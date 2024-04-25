@@ -251,8 +251,6 @@ form.rect_search::after {
   margin-right: 27%;
 }
 
-.menu_milieu_elements {}
-
 .rect_milieu {
   display: flex;
 }
@@ -271,7 +269,7 @@ form.rect_search::after {
   border-radius: 5px;
   height: 500px;
   width: 50%;
-  padding-left: 20px;
+  padding-left: 15px;
   padding-top: 10px;
 }
 
@@ -297,7 +295,7 @@ form.rect_search::after {
   margin-right: 5px;
 }
 
-.online{
+.online {
   display: inline-block;
   width: auto;
   background-color: var(--outline);
@@ -314,12 +312,12 @@ form.rect_search::after {
   margin: 5px 20px 0px 0px;
 }
 
-.interet_recherche h1{
+.interet_recherche h1 {
   font-size: 12pt;
   font-weight: 500;
 }
 
-.interet_recherche p{
+.interet_recherche p {
   display: inline-block;
   width: auto;
   border: 2px solid var(--outline);
@@ -330,10 +328,41 @@ form.rect_search::after {
   font-size: 10pt;
 }
 
-.btn_like_dislike_etc{
-  border: 2px solid var(--outline);
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
+.description {
+  width: 325px;
 }
 
+.bouton_actions {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.bouton_actions .btn_all {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--outline);
+  margin-right: 10px;
+}
+
+.bouton_actions img {
+  width: 25px;
+  height: 25px;
+}
+
+.Settings img{
+  filter: invert(1);
+}
+
+.btn_heart img{
+  filter: invert(1);
+}
+
+.btn_match img{
+  filter: invert(1);
+}
