@@ -256,11 +256,51 @@ form.rect_search::after {
 }
 
 .rect_milieu_photo {
-  background-image: url(../Images/profil.png);
-  background-size: 100% 100%;
   border-radius: 5px;
   height: 500px;
   width: 50%;
+  height: 500px;
+  position: relative;
+}
+
+.photo_all{
+  width: 100%;
+  height: 100%;
+}
+
+.photo_all img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.photo_arrow{
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.photo_arrow_left img,
+.photo_arrow_right img {
+  color: black; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  width: 28px;
+  height: 37px;
+}
+
+.photo_circle_bottom{
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.photo_circle_all{
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .rect_milieu_info {
