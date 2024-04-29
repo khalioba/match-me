@@ -7,10 +7,10 @@ include('include/header.php')
         <div class="rect_milieu">
             <div class="rect_milieu_photo">
                 <div class="photo_all">
-                    <img src="Images/profil.png" alt="">
-                    <img src="Images/lune.png" alt="">
-                    <img src="Images/profil.png" alt="">
-                    <img src="Images/lune.png" alt="">
+                    <img src="Images/profil.png" alt="" style="width: 365px">
+                    <img src="Images/lune.png" alt="" style="width: 365px">
+                    <img src="Images/profil.png" alt="" style="width: 365px">
+                    <img src="Images/lune.png" alt="" style="width: 365px">
                 </div>
                 <!-- <div class="photo_arrow">
                     <span class="photo_arrow_left">
@@ -161,3 +161,8 @@ include('include/header.php')
 
 
 </section>
+
+
+<?php
+include('include/footer.php')
+?>

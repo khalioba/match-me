@@ -174,10 +174,6 @@ form.rect_search::after {
   padding-top: 150px;
 }
 
-.menu_milieu {
-  width: 65%;
-  background-color: var(--bg_color);
-}
 
 .menu_droite {
   width: 25%;
@@ -244,11 +240,12 @@ form.rect_search::after {
 }
 
 .menu_milieu {
-  width: 100%;
+  width: 56%;
   height: 100%;
   margin-top: 83px;
   margin-left: 22%;
   margin-right: 27%;
+  background-color: var(--bg_color);
 }
 
 .rect_milieu {
@@ -259,7 +256,6 @@ form.rect_search::after {
   border-radius: 5px;
   height: 500px;
   width: 50%;
-  height: 500px;
   position: relative;
 }
 
@@ -269,8 +265,6 @@ form.rect_search::after {
 }
 
 .photo_all img {
-  width: 100%;
-  height: 100%;
   border-radius: 5px;
 }
 
