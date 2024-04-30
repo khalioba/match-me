@@ -5,6 +5,7 @@
   --texte: #ffffff;
   --border: 2px solid var(--outline);
   --font_size_menu: 12pt;
+  --dots-color: #D9D9D9;
 }
 
 * {
@@ -248,6 +249,11 @@ form.rect_search::after {
   background-color: var(--bg_color);
 }
 
+.menu_milieu_elements{
+  height: 500px;
+  width: 92%;
+}
+
 .rect_milieu {
   display: flex;
 }
@@ -266,6 +272,7 @@ form.rect_search::after {
 
 .photo_all img {
   border-radius: 5px;
+  object-fit: 100% 100%;
 }
 
 .photo_arrow{
@@ -303,7 +310,7 @@ form.rect_search::after {
   border-radius: 5px;
   height: 500px;
   width: 50%;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 10px;
 }
 
@@ -399,4 +406,44 @@ form.rect_search::after {
 
 .btn_match img{
   filter: invert(1);
+}
+
+.slick-prev, .slick-next {
+  z-index: 3;
+}
+
+.slick-prev{
+  left: 6px;
+}
+
+.slick-next{
+  right: 10px;
+}
+
+.slick-prev:before, .slick-next:before{
+  font-size: 25px;
+  opacity: 1;
+  color: var(--outline);
+}
+
+.slick-dots {
+  bottom: 25px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: var(--dots-color);
+}
+
+.slick-dots li button:before {
+  color: var(--dots-color);
+  font-size: 15pt;
+}
+
+.slick-dots li.slick-active button:before{
+  color: var(--outline);
+}
+
+.slick-dots li button:before{
+  opacity: 1;
 }

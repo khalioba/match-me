@@ -7,33 +7,11 @@ include('include/header.php')
         <div class="rect_milieu">
             <div class="rect_milieu_photo">
                 <div class="photo_all">
-                    <img src="Images/profil.png" alt="" style="width: 365px">
-                    <img src="Images/lune.png" alt="" style="width: 365px">
-                    <img src="Images/profil.png" alt="" style="width: 365px">
-                    <img src="Images/lune.png" alt="" style="width: 365px">
+                    <img src="Images/profil.png" alt="" style="height: 500px">
+                    <img src="Images/lune.png" alt="" style="height: 500px">
+                    <img src="Images/profil.png" alt="" style="height: 500px">
+                    <img src="Images/lune.png" alt="" style="height: 500px">
                 </div>
-                <!-- <div class="photo_arrow">
-                    <span class="photo_arrow_left">
-                        <img src="Images/back.svg" alt="">
-                    </span>
-                    <span class="photo_arrow_right">
-                        <img src="Images/next-1.svg" alt="">
-                    </span>
-                </div>
-                <div class="photo_circle_bottom photo_circle_all">
-                    <span class="photo_circle1 photo_circle_all">
-                        <img src="Images/ellipse.svg" alt="">
-                    </span>
-                    <span class="photo_circle2 photo_circle_all">
-                        <img src="Images/ellipse.svg" alt="">
-                    </span>
-                    <span class="photo_circle3 photo_circle_all">
-                        <img src="Images/ellipse.svg" alt="">
-                    </span>
-                    <span class="photo_circle4 photo_circle_all">
-                        <img src="Images/ellipse.svg" alt="">
-                    </span>
-                </div> -->
             </div>
             <div class="rect_milieu_info">
                 <div class="name_age_city_online">
