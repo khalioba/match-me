@@ -163,7 +163,7 @@ form.rect_search::after {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-size: cover;
+  object-fit: cover;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -389,6 +389,7 @@ form.rect_search::after {
   justify-content: center;
   border: 2px solid var(--outline);
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .bouton_actions img {
