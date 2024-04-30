@@ -78,6 +78,7 @@ form.rect_search input[type="text"]::placeholder {
 form.rect_search button {
   float: left;
   width: 40px;
+  height: 28.5px;
   background: var(--outline);
   color: var(--texte);
   font-size: 17px;
